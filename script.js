@@ -10,7 +10,7 @@ for (let i = 0; i < data; i++) {
     c.className = "card num" + i;
 
     let h = document.createElement("img");
-    h.src = `${currentUrl}/image/p${i + 1}.JPG`;
+    h.src = `https://anatakyoya.github.io/datakita/image/p${i + 1}.JPG`;
     c.appendChild(h);
 
     document.querySelector(".galeri").appendChild(c);
