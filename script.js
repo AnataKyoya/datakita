@@ -1,5 +1,6 @@
 let data = 7;
 
+const currentUrl = window.location.href;
 let card = document.querySelector(".galeri");
 let pop = document.querySelector(".center");
 let dwn = document.querySelector(".btn-download");
@@ -9,7 +10,7 @@ for (let i = 0; i < data; i++) {
     c.className = "card num" + i;
 
     let h = document.createElement("img");
-    h.src = `/image/p${i + 1}.JPG`;
+    h.src = `currentUrl/image/p${i + 1}.JPG`;
     c.appendChild(h);
 
     document.querySelector(".galeri").appendChild(c);
