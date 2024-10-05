@@ -1,4 +1,4 @@
-let data = 7;
+let data = 124;
 
 const currentUrl = window.location.href;
 let card = document.querySelector(".galeri");
