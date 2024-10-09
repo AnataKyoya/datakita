@@ -12,7 +12,7 @@ for (let i = 0; i < data; i++) {
     let h = document.createElement("img");
     h.src = `https://anatakyoya.github.io/datakita/image/p${i + 1}.JPG`;
     h.setAttribute("loading", "lazy");
-    h.srcset = `p${i + 1}.JPG 300w, p${i + 1}.JPG 600w, p${i + 1}.JPG 1200w`;
+    h.srcset = `https://anatakyoya.github.io/datakita/image/p${i + 1}.JPG 300w, https://anatakyoya.github.io/datakita/image/p${i + 1}.JPG 600w, https://anatakyoya.github.io/datakita/image/p${i + 1}.JPG 1200w`;
     h.sizes="(max-width: 600px) 300px, (max-width: 1200px) 600px, 1200px";
     c.appendChild(h);
 
